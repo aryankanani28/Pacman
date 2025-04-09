@@ -1,6 +1,9 @@
 #Pacman in Python with PyGame
 #https://github.com/hbokmann/Pacman
-  
+import pygame
+import random
+import sys
+import os
 #import pygame._view
   
 black = (0,0,0)
