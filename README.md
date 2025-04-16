@@ -1,32 +1,85 @@
-### Pacman in Python with PyGame
+# Pacman in Python with PyGame
 
-This is a very minimal implementation of the Pacman game, having only one level and without ghosts strategy, not even with random movements (yes, the routes are programmed). However, we may improve this game in the future and everyone else interested can feel free to fork and contribute to this project.
+A minimal implementation of the classic **Pacman** game using **Python** and **PyGame**. This version includes a single level with pre-programmed ghost paths and basic gameplay mechanics.
 
-Download installer from here: https://github.com/hbokmann/Pacman/blob/master/pacman.exe
+![Pacman Screenshot](images/screenshot.png)
 
-![Pacman Game Window](https://raw.github.com/hbokmann/Pacman/master/images/pacman.jpg)
+## Features
 
+- Single-level gameplay
+- Predefined ghost movements (no AI)
+- Basic collision detection
+- Background music and sound effects
+- Simple and clean codebase for learning purposes
 
-# Future development
+## Getting Started
 
-* Fix Pacman's movement
-* Ghosts moving algorithm and artificial intelligence
-* Better design
-* Better algorithm for the walls
-* Additional levels?
+### Prerequisites
 
+- Python 3.2 (32-bit)
+- PyGame 1.9
 
-Tested with [PyGame 1.9](http://pygame.org/ftp/pygame-1.9.2a0.win32-py3.2.msi ) and [Python 3.2 32bit](http://www.python.org/ftp/python/3.2.3/python-3.2.3.msi)
+> **Note:** This project was tested with Python 3.2 (32-bit) and PyGame 1.9. Compatibility with newer versions may vary.
 
+### Installation
 
-### Additional resources
-* [Pac-Man Dossier - strategy of the ghosts movement](http://home.comcast.net/~jpittman2/pacman/pacmandossier.html)
-* [HTML5 Pacman](http://arandomurl.com/2010/07/25/html5-pacman.html)
-* [PyGame tutorials](http://programarcadegames.com/index.php?lang=en)
-* [How To Write a Pacman Game in JavaScript](http://www.masswerk.at/JavaPac/pacman-howto.html)
-* [Original Pacman game](http://originalpacman.com/)
+1. **Clone the repository:**
 
+   ```bash
+   git clone https://github.com/hbokmann/Pacman.git
+   cd Pacman
+   ```
 
+2. **Install PyGame:**
 
-### Support or Contact
-Twitter: https://twitter.com/hbokmann
+   ```bash
+   pip install pygame
+   ```
+
+3. **Run the game:**
+
+   ```bash
+   python pacman.py
+   ```
+
+Alternatively, you can download the Windows executable:
+
+- [Download pacman.exe](https://github.com/hbokmann/Pacman/blob/master/pacman.exe)
+
+## Controls
+
+- **Arrow Keys**: Move Pacman
+- **ESC**: Exit the game
+
+## Project Structure
+
+```
+Pacman/
+├── images/             # Game assets (sprites, icons)
+├── pacman.py           # Main game script
+├── pacman.mp3          # Background music
+├── pacman.ico          # Game icon
+├── pacman.exe          # Windows executable
+├── freesansbold.ttf    # Font file
+└── README.md           # Project documentation
+```
+
+## Future Development
+
+- Implement AI for ghost movements
+- Add multiple levels
+- Enhance game design and graphics
+- Improve wall collision algorithms
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Inspired by the classic Pacman arcade game
+- Developed by [Hans Bokmann](https://github.com/hbokmann)
+
+---
+
+Feel free to fork the project, contribute, or modify it for learning purposes!
