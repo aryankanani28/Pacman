@@ -2,8 +2,6 @@
 
 A minimal implementation of the classic **Pacman** game using **Python** and **PyGame**. This version includes a single level with pre-programmed ghost paths and basic gameplay mechanics.
 
-![Pacman Screenshot](images/screenshot.png)
-
 ## Features
 
 - Single-level gameplay
