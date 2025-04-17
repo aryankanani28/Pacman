@@ -79,5 +79,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 - Developed by [Hans Bokmann](https://github.com/hbokmann)
 
 ---
-
-Feel free to fork the project, contribute, or modify it for learning purposes!
